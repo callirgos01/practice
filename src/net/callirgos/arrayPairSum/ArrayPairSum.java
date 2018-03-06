@@ -1,5 +1,7 @@
 package net.callirgos.arrayPairSum;
 
+import java.util.Arrays;
+
 public class ArrayPairSum {
    /*
     * Given an array of 2n integers, your task is to group these integers into n pairs of integer,
@@ -13,36 +15,14 @@ public class ArrayPairSum {
     * n is a positive integer, which is in the range of [1, 10000].
     * All the integers in the array will be in the range of [-10000, 10000].
     */
-   private int min( int left, int right )
-   {
-       System.out.printf("%d,%d\r\n",left,right);
-        if( left == right)
-            return left;
-        else if( left < right )
-            return left;
-        else if( left > right )
-            return right;
-        else
-            return 0;
-   }
+    // 0 3
+    // 1 2
     public int arrayPairSum(int[] nums) {
-        int largest = 0;
-
-        for(int i=0; i < nums.length; i++)
-        {
-            for(int j=0; j < nums.length; j++)
-            {
-                if( i != j )
-                {
-                    int minPair = min(nums[i],nums[i+1]) + min(nums[j],nums[j+1]);
-                    if( largest < minPair )
-                    {
-                        largest = minPair;
-                    }
-                }
-            }
-
+        int result = 0;
+        Arrays.sort(nums);
+        for(int i=0; i < nums.length; i=i+2) {
+            result += nums[i];
         }
-        return largest;
+        return result;
     }
 }
