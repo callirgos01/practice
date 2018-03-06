@@ -31,8 +31,6 @@ public class FindComplement {
             num>>=1;
             rolling++;
         }
-
-
         return result;
     }
 
