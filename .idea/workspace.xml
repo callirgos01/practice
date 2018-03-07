@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="725ddcbf-e34e-4d92-9906-87e60342656f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/net/callirgos/findComplement/FindComplement.java" afterPath="$PROJECT_DIR$/src/net/callirgos/findComplement/FindComplement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +13,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="KeyboardRow.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TrimBST.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="524">
+                  <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/fizzBuzz/FizzBuzz.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="470">
+                  <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#949#957#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/fizzBuzz/FizzBuzzTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#330#338#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,6 +77,11 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>expectedOuput</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +115,12 @@
         <option value="$PROJECT_DIR$/src/net/callirgos/reverseString/ReverseString.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/reverseWords/ReverseWordsTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/reverseWords/ReverseWords.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/keyboardRow/KeyboardRowTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/fizzBuzz/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/fizzBuzz/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -84,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +180,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="callirgos" type="462c0819:PsiDirectoryNode" />
               <item name="findComplement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="fizzBuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="keyboardRow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -154,6 +233,13 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="trimBST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -162,14 +248,20 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="callirgos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="mergeTrees" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,11 +277,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.callirgos.fizzBuzz" />
+      <recent name="net.callirgos.trimBST" />
+      <recent name="net.callirgos.keyboardRow" />
       <recent name="net.callirgos.reverseWords" />
       <recent name="net.callirgos.reverseString" />
-      <recent name="net.callirgos.findComplement" />
-      <recent name="net.callirgos.numJewelsInStones" />
-      <recent name="net.callirgos.arrayPairSum" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -207,20 +299,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseWordsTest.reverseWords">
-    <configuration name="ArrayPairSumTest.arrayPairSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.fizzBuzz">
+    <configuration name="FizzBuzzTest.fizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.arrayPairSum.*" />
+          <option name="PATTERN" value="net.callirgos.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.arrayPairSum" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.arrayPairSum.ArrayPairSumTest" />
-      <option name="METHOD_NAME" value="arrayPairSum" />
+      <option name="PACKAGE_NAME" value="net.callirgos.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.fizzBuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="fizzBuzz" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -233,69 +325,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FindComplementTest.findComplement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyboardRowTest.findWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.findComplement.*" />
+          <option name="PATTERN" value="net.callirgos.keyboardRow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.findComplement" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.findComplement.FindComplementTest" />
-      <option name="METHOD_NAME" value="findComplement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="NumJewelsInStonesTest.numJewelsInStones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.callirgos.numJewelsInStones.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.numJewelsInStones" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.numJewelsInStones.NumJewelsInStonesTest" />
-      <option name="METHOD_NAME" value="numJewelsInStones" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ReverseStringTest.reverseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.callirgos.reverseString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.reverseString" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.reverseString.ReverseStringTest" />
-      <option name="METHOD_NAME" value="reverseString" />
+      <option name="PACKAGE_NAME" value="net.callirgos.keyboardRow" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.keyboardRow.KeyboardRowTest" />
+      <option name="METHOD_NAME" value="findWords" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -333,6 +375,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="TrimBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.callirgos.trimBST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.callirgos.trimBST" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.trimBST.TrimBSTTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TrimBSTTest.trimBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.callirgos.trimBST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.callirgos.trimBST" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.trimBST.TrimBSTTest" />
+      <option name="METHOD_NAME" value="trimBST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -349,19 +441,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayPairSumTest.arrayPairSum" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NumJewelsInStonesTest.numJewelsInStones" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FindComplementTest.findComplement" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.reverseString" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ReverseWordsTest.reverseWords" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ReverseWordsTest.reverseWords" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.KeyboardRowTest.findWords" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrimBSTTest.trimBST" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TrimBSTTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.fizzBuzz" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ReverseWordsTest.reverseWords" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.reverseString" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FindComplementTest.findComplement" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NumJewelsInStonesTest.numJewelsInStones" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayPairSumTest.arrayPairSum" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.fizzBuzz" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TrimBSTTest.trimBST" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrimBSTTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KeyboardRowTest.findWords" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReverseWordsTest.reverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -382,35 +474,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseStringTest_reverseString - 2018.03.06 at 14h 17m 43s.xml">
-      <configuration name="ReverseStringTest.reverseString" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_fizzBuzz - 2018.03.07 at 14h 37m 32s.xml">
+      <configuration name="FizzBuzzTest.fizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseStringTest_reverseString - 2018.03.06 at 14h 17m 46s.xml">
-      <configuration name="ReverseStringTest.reverseString" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_fizzBuzz - 2018.03.07 at 14h 38m 33s.xml">
+      <configuration name="FizzBuzzTest.fizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseStringTest_reverseString - 2018.03.06 at 14h 17m 52s.xml">
-      <configuration name="ReverseStringTest.reverseString" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_fizzBuzz - 2018.03.07 at 14h 38m 43s.xml">
+      <configuration name="FizzBuzzTest.fizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseStringTest_reverseString - 2018.03.06 at 14h 18m 40s.xml">
-      <configuration name="ReverseStringTest.reverseString" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_fizzBuzz - 2018.03.07 at 14h 40m 08s.xml">
+      <configuration name="FizzBuzzTest.fizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsTest_reverseWords - 2018.03.06 at 15h 06m 05s.xml">
-      <configuration name="ReverseWordsTest.reverseWords" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_fizzBuzz - 2018.03.07 at 14h 40m 42s.xml">
+      <configuration name="FizzBuzzTest.fizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsTest_reverseWords - 2018.03.06 at 15h 07m 21s.xml">
-      <configuration name="ReverseWordsTest.reverseWords" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_fizzBuzz - 2018.03.07 at 14h 40m 57s.xml">
+      <configuration name="FizzBuzzTest.fizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsTest_reverseWords - 2018.03.06 at 15h 07m 57s.xml">
-      <configuration name="ReverseWordsTest.reverseWords" configurationId="JUnit" />
+    <history-entry file="TrimBSTTest_trimBST - 2018.03.07 at 12h 31m 18s.xml">
+      <configuration name="TrimBSTTest.trimBST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsTest_reverseWords - 2018.03.06 at 15h 09m 20s.xml">
-      <configuration name="ReverseWordsTest.reverseWords" configurationId="JUnit" />
+    <history-entry file="TrimBSTTest_trimBST - 2018.03.07 at 12h 32m 25s.xml">
+      <configuration name="TrimBSTTest.trimBST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsTest_reverseWords - 2018.03.06 at 15h 10m 41s.xml">
-      <configuration name="ReverseWordsTest.reverseWords" configurationId="JUnit" />
+    <history-entry file="TrimBSTTest_trimBST - 2018.03.07 at 12h 32m 51s.xml">
+      <configuration name="TrimBSTTest.trimBST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsTest_reverseWords - 2018.03.06 at 15h 11m 15s.xml">
-      <configuration name="ReverseWordsTest.reverseWords" configurationId="JUnit" />
+    <history-entry file="TrimBSTTest_trimBST - 2018.03.07 at 13h 53m 54s.xml">
+      <configuration name="TrimBSTTest.trimBST" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -424,12 +516,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -441,7 +534,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -477,16 +569,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/reverseString/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,25 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/mergeTrees/MergeTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/mergeTrees/MergeTreesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#324#333#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,10 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1291#1300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="5" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +725,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/keyboardRow/KeyboardRowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/mergeTrees/MergeTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/mergeTrees/MergeTreesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/fizzBuzz/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#330#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/fizzBuzz/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#949#957#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
