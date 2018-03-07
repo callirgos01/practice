@@ -32,18 +32,11 @@ public class FizzBuzz {
      */
     public List<String> fizzBuzz(int n) {
         String[][] fizzBuzzTable = new String[][]{{"FizzBuzz","Fizz"},{"Buzz",""}};
-
         ArrayList<String> result = new ArrayList<String>();
         for( int i = 1; i<=n; i++)
         {
-            if( fizzBuzzTable[((i%3)==0)?0:1][((i%5)==0)?0:1].isEmpty() )
-            {
-                result.add(String.format("%d",i));
-            }
-            else
-            {
-                result.add(fizzBuzzTable[((i%3)==0)?0:1][((i%5)==0)?0:1]);
-            }
+            fizzBuzzTable[1][1] = String.format("%d",i);
+            result.add(fizzBuzzTable[((i%3)==0)?0:1][((i%5)==0)?0:1]);
         }
         return result;
     }
