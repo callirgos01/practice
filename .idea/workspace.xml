@@ -15,23 +15,15 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MaxSubArrayLen.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/net/callirgos/maxSubArrayLen/MaxSubArrayLen.java">
+        <leaf>
+          <file leaf-file-name="SpiralOrder.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FindMaxLength.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="66" />
-                  <folding />
+                <state relative-caret-position="556">
+                  <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -39,12 +31,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MaxSubArrayLenTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/maxSubArrayLen/MaxSubArrayLenTest.java">
+        <leaf>
+          <file leaf-file-name="SpiralOrderTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
+                <state relative-caret-position="405">
+                  <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -120,6 +112,8 @@
         <option value="$PROJECT_DIR$/tests/net/callirgos/findMaxLength/FindMaxLengthTest.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/maxSubArrayLen/MaxSubArrayLenTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/maxSubArrayLen/MaxSubArrayLen.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" />
       </list>
     </option>
   </component>
@@ -186,6 +180,13 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="spiralOrder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,11 +221,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.callirgos.spiralOrder" />
       <recent name="net.callirgos.maxSubArrayLen" />
       <recent name="net.callirgos.findMaxLength" />
       <recent name="net.callirgos.kthSmallest" />
       <recent name="net.callirgos.dailyTemperatures" />
-      <recent name="net.callirgos.findRestaurant" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -242,32 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaxSubArrayLenTest">
-    <configuration name="DailyTemperaturesTest.dailyTemperatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.callirgos.dailyTemperatures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.dailyTemperatures" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.dailyTemperatures.DailyTemperaturesTest" />
-      <option name="METHOD_NAME" value="dailyTemperatures" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpiralOrderTest.spiralOrder">
     <configuration name="FindMaxLengthTest.findMaxLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -368,6 +344,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="SpiralOrderTest.spiralOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.callirgos.spiralOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.callirgos.spiralOrder" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.spiralOrder.SpiralOrderTest" />
+      <option name="METHOD_NAME" value="spiralOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -384,19 +385,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DailyTemperaturesTest.dailyTemperatures" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KthSmallestTest.findKthNumber" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FindMaxLengthTest.findMaxLength" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.KthSmallestTest.findKthNumber" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FindMaxLengthTest.findMaxLength" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SpiralOrderTest.spiralOrder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FindMaxLengthTest.findMaxLength" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KthSmallestTest.findKthNumber" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DailyTemperaturesTest.dailyTemperatures" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpiralOrderTest.spiralOrder" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FindMaxLengthTest.findMaxLength" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KthSmallestTest.findKthNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -417,40 +418,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxSubArrayLenTest - 2018.03.12 at 13h 49m 40s.xml">
-      <configuration name="MaxSubArrayLenTest" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 34m 43s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 29m 10s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 35m 02s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 29m 18s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 35m 59s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 34m 33s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 36m 38s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 34m 45s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 36m 53s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 35m 44s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 50m 34s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 36m 14s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 51m 43s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 48m 14s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 53m 56s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 48m 19s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 55m 30s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubArrayLenTest_maxSubArrayLen - 2018.03.12 at 13h 49m 33s.xml">
-      <configuration name="MaxSubArrayLenTest.maxSubArrayLen" configurationId="JUnit" />
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 55m 41s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1921" y="23" width="1920" height="1130" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -460,7 +460,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32797733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32797733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -513,49 +513,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/maxSubArrayLen/MaxSubArrayLenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/kthSmallest/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/kthSmallest/KthSmallestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/kthSmallest/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java" />
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java" />
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java" />
@@ -603,6 +565,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,6 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -669,6 +633,52 @@
         <state relative-caret-position="465">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ForEachOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding>
+            <element signature="e#6103#6104#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+          <folding>
+            <element signature="e#15593#15594#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="4330" column="0" lean-forward="false" selection-start-line="4330" selection-start-column="0" selection-end-line="4330" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
