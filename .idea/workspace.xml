@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="725ddcbf-e34e-4d92-9906-87e60342656f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" afterPath="$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +16,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="SpiralOrder.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java">
+          <file leaf-file-name="FindMedianSortedArray.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="556">
-                  <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="46" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="450">
+                  <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -32,11 +30,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SpiralOrderTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java">
+          <file leaf-file-name="FindMedianSortedArrayTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+                <state relative-caret-position="285">
+                  <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -114,14 +112,17 @@
         <option value="$PROJECT_DIR$/src/net/callirgos/maxSubArrayLen/MaxSubArrayLen.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/hitCounter/HitCounterTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/hitCounter/HitCounter.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1921" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1920" />
     <option name="width" value="1920" />
-    <option name="height" value="1130" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -144,7 +145,6 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,27 +162,6 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="findMaxLength" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="maxSubArrayLen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="spiralOrder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -206,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,11 +201,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.callirgos.findMedianSortedArray" />
+      <recent name="net.callirgos.hitCounter" />
       <recent name="net.callirgos.spiralOrder" />
       <recent name="net.callirgos.maxSubArrayLen" />
       <recent name="net.callirgos.findMaxLength" />
-      <recent name="net.callirgos.kthSmallest" />
-      <recent name="net.callirgos.dailyTemperatures" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -243,20 +223,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiralOrderTest.spiralOrder">
-    <configuration name="FindMaxLengthTest.findMaxLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindMedianSortedArrayTest.findMedianSortedArrays">
+    <configuration name="FindMedianSortedArrayTest.findMedianSortedArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.findMaxLength.*" />
+          <option name="PATTERN" value="net.callirgos.findMedianSortedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.findMaxLength" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.findMaxLength.FindMaxLengthTest" />
-      <option name="METHOD_NAME" value="findMaxLength" />
+      <option name="PACKAGE_NAME" value="net.callirgos.findMedianSortedArray" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.findMedianSortedArray.FindMedianSortedArrayTest" />
+      <option name="METHOD_NAME" value="findMedianSortedArrays" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -269,19 +249,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="KthSmallestTest.findKthNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HitCounterTest.getHits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.kthSmallest.*" />
+          <option name="PATTERN" value="net.callirgos.hitCounter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.kthSmallest" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.kthSmallest.KthSmallestTest" />
-      <option name="METHOD_NAME" value="findKthNumber" />
+      <option name="PACKAGE_NAME" value="net.callirgos.hitCounter" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.hitCounter.HitCounterTest" />
+      <option name="METHOD_NAME" value="getHits" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -385,19 +365,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.KthSmallestTest.findKthNumber" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FindMaxLengthTest.findMaxLength" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SpiralOrderTest.spiralOrder" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpiralOrderTest.spiralOrder" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HitCounterTest.getHits" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FindMedianSortedArrayTest.findMedianSortedArrays" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpiralOrderTest.spiralOrder" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FindMaxLengthTest.findMaxLength" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.KthSmallestTest.findKthNumber" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FindMedianSortedArrayTest.findMedianSortedArrays" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HitCounterTest.getHits" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpiralOrderTest.spiralOrder" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MaxSubArrayLenTest.maxSubArrayLen" />
       </list>
     </recent_temporary>
   </component>
@@ -418,26 +398,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 34m 43s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    <history-entry file="FindMedianSortedArrayTest_findMedianSortedArrays - 2018.03.13 at 14h 52m 57s.xml">
+      <configuration name="FindMedianSortedArrayTest.findMedianSortedArrays" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 35m 02s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    <history-entry file="HitCounterTest_getHits - 2018.03.13 at 11h 41m 13s.xml">
+      <configuration name="HitCounterTest.getHits" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 35m 59s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    <history-entry file="HitCounterTest_getHits - 2018.03.13 at 11h 41m 36s.xml">
+      <configuration name="HitCounterTest.getHits" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 36m 38s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    <history-entry file="HitCounterTest_getHits - 2018.03.13 at 11h 46m 57s.xml">
+      <configuration name="HitCounterTest.getHits" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 36m 53s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    <history-entry file="HitCounterTest_getHits - 2018.03.13 at 11h 48m 01s.xml">
+      <configuration name="HitCounterTest.getHits" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 50m 34s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 51m 43s.xml">
-      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    <history-entry file="HitCounterTest_getHits - 2018.03.13 at 11h 50m 53s.xml">
+      <configuration name="HitCounterTest.getHits" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 53m 56s.xml">
       <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
@@ -448,9 +425,12 @@
     <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.12 at 15h 55m 41s.xml">
       <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiralOrderTest_spiralOrder - 2018.03.13 at 09h 02m 55s.xml">
+      <configuration name="SpiralOrderTest.spiralOrder" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="23" width="1920" height="1130" extended-state="0" />
+    <frame x="1920" y="0" width="1920" height="1200" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -460,12 +440,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32797733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30173913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -518,10 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/reverseString/ReverseString.java" />
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/reverseString/ReverseStringTest.java" />
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/mergeTrees/MergeTreesTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -565,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,9 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="e#6103#6104#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-          <folding>
-            <element signature="e#15593#15594#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,25 +627,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="4330" column="0" lean-forward="false" selection-start-line="4330" selection-start-column="0" selection-end-line="4330" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="315">
+          <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="46" />
+        <state relative-caret-position="276">
+          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/hitCounter/HitCounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/hitCounter/HitCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

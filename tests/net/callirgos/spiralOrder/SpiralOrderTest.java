@@ -25,8 +25,6 @@ class SpiralOrderTest {
         expectedResult1.add(5);
 
         List<Integer> actualResult1 = new SpiralOrder().spiralOrder(example1Input1);
-
-        //[[3],[2]]
         int [][] example1Input2 = new int[][]{{2,3}};
         List<Integer> expectedResult2 = new ArrayList<>();
         expectedResult2.add(2);
