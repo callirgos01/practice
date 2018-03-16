@@ -22,6 +22,7 @@ class CodecTest {
 
     private void printRoot(Codec.TreeNode root)
     {
+        System.out.println("----");
         if(root == null ) {
             System.out.println("empty tree");
         }
