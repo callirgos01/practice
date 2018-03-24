@@ -89,19 +89,7 @@ public class FindRightInterval {
         return results;
     }*/
     public int[] findRightInterval(Interval[] intervals) {
-        Interval[] endIntervals = Arrays.copyOf(intervals,intervals.length);
-        HashMap<Interval,Integer> hash = new HashMap<>();
-        for(int i=0; i<intervals.length; i++) {
-            hash.put(intervals[i],i);
-        }
-        Arrays.sort(intervals, (a,b)->a.start - b.start);
-        Arrays.sort(endIntervals, (a,b)->a.end - b.end);
 
-        for(int i=0; i<endIntervals.length; i++)
-        {
-
-
-        }
         return new int[2];
     }
 }

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="725ddcbf-e34e-4d92-9906-87e60342656f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java" afterPath="$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java" />
+      <change beforePath="$PROJECT_DIR$/src/net/callirgos/findRightInterval/FindRightInterval.java" afterPath="$PROJECT_DIR$/src/net/callirgos/findRightInterval/FindRightInterval.java" />
       <change beforePath="$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java" afterPath="$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java" />
-      <change beforePath="$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java" afterPath="$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +15,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/practice$BinarySearchTest.coverage" NAME="BinarySearchTest Coverage Results" MODIFIED="1521821561149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>net.callirgos.binarySearch.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/practice$All_in_practice.coverage" NAME="All in practice Coverage Results" MODIFIED="1521828482380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/practice$BinarySearchTest_binarySearchIterative.coverage" NAME="BinarySearchTest.binarySearchIterative Coverage Results" MODIFIED="1521821714589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>net.callirgos.binarySearch.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Codec.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java">
+        <leaf>
+          <file leaf-file-name="TriePractice.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/triePractice/TriePractice.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="26" />
+                <state relative-caret-position="475">
+                  <caret line="180" column="12" lean-forward="false" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1230#1231#0" expanded="true" />
+                    <element signature="e#1270#1271#0" expanded="true" />
+                    <element signature="e#1322#1323#0" expanded="true" />
+                    <element signature="e#1363#1364#0" expanded="true" />
+                    <element signature="e#1422#1423#0" expanded="true" />
+                    <element signature="e#1466#1467#0" expanded="true" />
+                    <element signature="e#3345#3346#0" expanded="true" />
+                    <element signature="e#3385#3386#0" expanded="true" />
+                    <element signature="e#3437#3438#0" expanded="true" />
+                    <element signature="e#3478#3479#0" expanded="true" />
+                    <element signature="e#3537#3538#0" expanded="true" />
+                    <element signature="e#3581#3582#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TrimBST.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-305">
+                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Codec.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -33,12 +75,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CodecTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java">
+        <leaf>
+          <file leaf-file-name="TriePracticeTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/triePractice/TriePracticeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="687">
-                  <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+                <state relative-caret-position="-12">
+                  <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="48" />
                   <folding />
                 </state>
               </provider>
@@ -73,28 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/net/callirgos/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/java/Solution.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/java/SolTreeNode.java" />
-        <option value="$PROJECT_DIR$/tests/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/MergeTrees.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/mergeTrees/MergeTrees.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/mergeTrees/MergeTreesTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/anotherSolution/selfDividing.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/selfDividing/selfDividing.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/selfDividing/SelfDividingTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/selfDividing/SelfDividing.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/arrayPairSum/ArrayPairSumTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/arrayPairSum/ArrayPairSum.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/numJewelsInStones/NumJewelsInStonesTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/numJewelsInStones/NumJewelsInStones.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/findComplement/FindComplementTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/findComplement/FindComplement.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/reverseString/ReverseStringTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/reverseString/ReverseString.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/reverseWords/ReverseWordsTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/reverseWords/ReverseWords.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/keyboardRow/KeyboardRowTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java" />
@@ -110,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/net/callirgos/dailyTemperatures/DailyTemperatures.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/kthSmallest/KthSmallestTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/kthSmallest/KthSmallest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/findMaxLength/FindMaxLengthTest.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/maxSubArrayLen/MaxSubArrayLenTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/maxSubArrayLen/MaxSubArrayLen.java" />
@@ -121,15 +140,39 @@
         <option value="$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/yearAlive/yearsAliveTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/yearAlive/yearsAlive.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/cryptoQuestion/CryptopQuestionTest.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/sumUp/SumUpTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/sumUp/SumUp.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/net/callirgos/findIceCreamChoices/IceCreamChoicesTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/net/callirgos/findIceCreamChoices/IceCreamChoices.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/findIceCreamChoices/IceCreamChoicesTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/cryptoQuestion/CryptopQuestion.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/matrixRegions/matrixRegionsTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/matrixRegions/matrixRegions.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/quickSort/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/binarySearch/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/mergeSort/MergeSortTest.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/mergeSort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/quickSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/makeChange/MakeChange.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/fib/FIb.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/fib/Fib.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/fib/FibTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/findRightInterval/FindRightInterval.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/triePractice/TriePracticeTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/triePractice/TriePractice.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1929" />
-    <option name="y" value="57" />
-    <option name="width" value="1920" />
-    <option name="height" value="1165" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="842" />
+    <option name="width" value="838" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -149,9 +192,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,6 +224,20 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="triePractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="trimBST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +245,20 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="fib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -195,6 +266,13 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="callirgos" type="462c0819:PsiDirectoryNode" />
               <item name="kthSmallest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="quickSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,11 +293,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="net.callirgos.serializeDeserialize" />
-      <recent name="net.callirgos.findMedianSortedArray" />
-      <recent name="net.callirgos.hitCounter" />
-      <recent name="net.callirgos.spiralOrder" />
-      <recent name="net.callirgos.maxSubArrayLen" />
+      <recent name="net.callirgos.fib" />
+      <recent name="net.callirgos.mergeSort" />
+      <recent name="net.callirgos.quickSort" />
+      <recent name="net.callirgos.matrixRegions" />
+      <recent name="net.callirgos.binarySearch" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -237,21 +315,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodecTest.deserialize">
-    <configuration name="CodecTest.deserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.callirgos.serializeDeserialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.TriePracticeTest.useTrie">
+    <configuration name="All in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.serializeDeserialize" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.serializeDeserialize.CodecTest" />
-      <option name="METHOD_NAME" value="deserialize" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -263,43 +336,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CodecTest.serialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.serializeDeserialize.*" />
+          <option name="PATTERN" value="net.callirgos.fib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.serializeDeserialize" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.serializeDeserialize.CodecTest" />
-      <option name="METHOD_NAME" value="serialize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FindMedianSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.callirgos.findMedianSortedArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.findMedianSortedArray" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.findMedianSortedArray.FindMedianSortedArrayTest" />
+      <option name="PACKAGE_NAME" value="net.callirgos.fib" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.fib.FibTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -313,19 +361,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FindMedianSortedArrayTest.findMedianSortedArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibTest.fib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.findMedianSortedArray.*" />
+          <option name="PATTERN" value="net.callirgos.fib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.findMedianSortedArray" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.findMedianSortedArray.FindMedianSortedArrayTest" />
-      <option name="METHOD_NAME" value="findMedianSortedArrays" />
+      <option name="PACKAGE_NAME" value="net.callirgos.fib" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.fib.FibTest" />
+      <option name="METHOD_NAME" value="fib" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -338,19 +386,44 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="HitCounterTest.getHits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TriePracticeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.hitCounter.*" />
+          <option name="PATTERN" value="net.callirgos.triePractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.hitCounter" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.hitCounter.HitCounterTest" />
-      <option name="METHOD_NAME" value="getHits" />
+      <option name="PACKAGE_NAME" value="net.callirgos.triePractice" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.triePractice.TriePracticeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TriePracticeTest.useTrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.callirgos.triePractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.callirgos.triePractice" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.triePractice.TriePracticeTest" />
+      <option name="METHOD_NAME" value="useTrie" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -379,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HitCounterTest.getHits" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FindMedianSortedArrayTest.findMedianSortedArrays" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FindMedianSortedArrayTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CodecTest.serialize" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CodecTest.deserialize" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FibTest.fib" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FibTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in practice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TriePracticeTest.useTrie" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TriePracticeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CodecTest.deserialize" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CodecTest.serialize" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FindMedianSortedArrayTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FindMedianSortedArrayTest.findMedianSortedArrays" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HitCounterTest.getHits" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TriePracticeTest.useTrie" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TriePracticeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in practice" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FibTest.fib" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FibTest" />
       </list>
     </recent_temporary>
   </component>
@@ -412,55 +485,56 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 11h 09m 48s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest - 2018.03.23 at 12h 14m 42s.xml">
+      <configuration name="TriePracticeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 36m 33s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 02m 26s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 36m 52s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 04m 30s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 37m 23s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 16m 22s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 38m 36s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 17m 19s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 39m 36s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 17m 31s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 40m 41s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 18m 03s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 41m 26s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 12h 19m 17s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 15h 58m 02s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 13h 39m 29s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodecTest_deserialize - 2018.03.14 at 16h 00m 24s.xml">
-      <configuration name="CodecTest.deserialize" configurationId="JUnit" />
+    <history-entry file="TriePracticeTest_useTrie - 2018.03.23 at 13h 40m 02s.xml">
+      <configuration name="TriePracticeTest.useTrie" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3456" height="1456" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32760182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3139881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.030952381" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18168604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -475,31 +549,32 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285068" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.030952381" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -508,172 +583,327 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/net/callirgos/triePractice/TriePracticeTest.java</url>
+          <line>10</line>
+          <properties class="net.callirgos.triePractice.TriePracticeTest" method="printTrie">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/SolutionTest.java" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3739">
-          <caret line="371" column="0" lean-forward="false" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/selfDividing/SelfDividingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/selfDividing/SelfDividing.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/arrayPairSum/ArrayPairSumTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/numJewelsInStones/NumJewelsInStonesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/numJewelsInStones/NumJewelsInStones.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/arrayPairSum/ArrayPairSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findComplement/FindComplement.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findComplement/FindComplementTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/reverseString/ReverseString.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/reverseWords/ReverseWords.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/reverseWords/ReverseWordsTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/keyboardRow/KeyboardRowTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/keyboardRow/KeyboardRow.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/mergeTrees/MergeTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/mergeTrees/MergeTreesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/fizzBuzz/FizzBuzzTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/reverseString/ReverseStringTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/distributeCandies/DistributeCandiesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/distributeCandies/DistributeCandies.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/trimBST/TrimBSTTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/splitBST/SplitBSTTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/fizzBuzz/FizzBuzz.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/splitBST/SplitBST.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findRestaurant/FindRestaurantTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findRestaurant/FindRestaurant.java" />
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/dailyTemperatures/DailyTemperaturesTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/dailyTemperatures/DailyTemperatures.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/kthSmallest/KthSmallestTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/kthSmallest/KthSmallestTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/kthSmallest/KthSmallest.java" />
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findMaxLength/FindMaxLengthTest.java" />
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/maxSubArrayLen/MaxSubArrayLenTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ForEachOps.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Formatter.java" />
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java" />
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/hitCounter/HitCounterTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/hitCounter/HitCounter.java" />
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java" />
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/kthSmallest/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findMaxLength/FindMaxLengthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="743">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="66" />
+        <state relative-caret-position="491">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/maxSubArrayLen/MaxSubArrayLenTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/yearAlive/yearsAliveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/yearAlive/yearsAlive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/sumUp/SumUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/sumUp/SumUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/arrayPairSum/ArrayPairSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findIceCreamChoices/IceCreamChoices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/maxSubArrayLen/MaxSubArrayLen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ForEachOps.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Formatter.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/hitCounter/HitCounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/hitCounter/HitCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findIceCreamChoices/IceCreamChoicesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/cryptoQuestion/CryptopQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/cryptoQuestion/CryptopQuestionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="5515" column="79" lean-forward="false" selection-start-line="5515" selection-start-column="65" selection-end-line="5515" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/matrixRegions/matrixRegionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/matrixRegions/matrixRegions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/binarySearch/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/mergeSort/MergeSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/mergeSort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/quickSort/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/quickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="e#1209#1210#0" expanded="false" />
+            <element signature="e#1266#1267#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/makeChange/MakeChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#123#124#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="4330" column="0" lean-forward="false" selection-start-line="4330" selection-start-column="0" selection-end-line="4330" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/fib/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/fib/FibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findRightInterval/FindRightIntervalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/depthSum/DepthSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/findRightInterval/FindRightInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/trimBST/TrimBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="220">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/triePractice/TriePracticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/triePractice/TriePractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="180" column="12" lean-forward="false" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#3345#3346#0" expanded="true" />
+            <element signature="e#3385#3386#0" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3537#3538#0" expanded="true" />
+            <element signature="e#3581#3582#0" expanded="true" />
           </folding>
         </state>
       </provider>

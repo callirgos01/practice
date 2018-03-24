@@ -33,6 +33,7 @@ public class Codec {
 
     private TreeNode buildTree(Queue<String> nodes)
     {
+
         String val = nodes.remove();
         if(val.equals("n")){
             return null;
