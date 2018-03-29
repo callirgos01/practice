@@ -8,12 +8,18 @@ public class ReverseString {
     */
 
     public String reverseString(String s) {
-        int[] allChars = s.chars().toArray();
-        char[] reversedString = new char[allChars.length];
-        for(int i = s.length()-1, j = 0; i>=0;i--, j++){
-            reversedString[j] = (char)allChars[i];
+        int left = 0;
+        int right = s.length()-1;
+        char[] allChars = s.toCharArray();
+
+        while(left<right) {
+            char temp = allChars[left];
+            allChars[left] = allChars[right];
+            allChars[right] = temp;
+            left++;
+            right--;
         }
-        return new String(reversedString);
+        return new String(allChars);
     }
 
 }

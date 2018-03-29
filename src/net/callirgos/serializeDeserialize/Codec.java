@@ -33,6 +33,24 @@ public class Codec {
 
     private TreeNode buildTree(Queue<String> nodes)
     {
+        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+        // Largest sum of them all.
+        //
+
+        int max = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            int cur = 0;
+            int pending = nums.length - i;
+            for (int p = 0; p < pending; p++) {
+                cur = cur + nums[p + i];
+            }
+            if (cur > max) {
+                max = cur;
+            }
+        }
+
+        System.out.println(max);
 
         String val = nodes.remove();
         if(val.equals("n")){
@@ -45,6 +63,9 @@ public class Codec {
             node.right = buildTree(nodes);
             return node;
         }
+
+
+
     }
 
     // Decodes your encoded data to tree.

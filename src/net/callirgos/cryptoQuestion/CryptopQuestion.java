@@ -8,7 +8,7 @@ public class CryptopQuestion {
     // correlates to the time the reading what taken
     // return the greatest positive change between two values in the array.
 
-    public int maxProfit(int[] currencyPrice) {
+    public int maxProfit(int[] prices) {
         // Iterate through the array
         // once you have found that the value in index i
         // added with the value at index i + j
@@ -18,14 +18,16 @@ public class CryptopQuestion {
         // continue searching through the array
         // for a sum that is greater
         int maxProfit = 0;
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for( int i=0; i<currencyPrice.length; i++) {
-            int profit = maxProfit - currencyPrice[i];
-
-            maxProfit = Math.max(maxProfit, map.getOrDefault(profit, -1));
+        int minPrice = 0;
+        for( int i=0; i<prices.length; i++) {
+          if(prices[i]< minPrice) {
+              minPrice = prices[i];
+          }
+          else if( prices[i]-minPrice > maxProfit) {
+              maxProfit = prices[i] - minPrice;
+          }
 
         }
-
         return maxProfit;
     }
 
