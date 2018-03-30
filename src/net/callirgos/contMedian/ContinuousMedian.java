@@ -39,6 +39,7 @@ public class ContinuousMedian {
         });
         //min heap to keep the lowest number of another half.
         PriorityQueue<Integer> highers = new PriorityQueue<>();
+
         double[] medians = new double[array.length];
         for(int i=0; i<array.length; i++) {
             int number = array[i];
