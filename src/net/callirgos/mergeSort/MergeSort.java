@@ -27,6 +27,7 @@ public class MergeSort {
             }
             index++;
         }
+
         System.arraycopy(nums, left, temp, index, leftEnd - left + 1);
         System.arraycopy(nums, right, temp, index, rightEnd - right +1);
         System.arraycopy(temp, leftStart, nums, leftStart, size);

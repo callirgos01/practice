@@ -2,6 +2,7 @@ package net.callirgos.triePractice;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 
 public class TriePractice {
@@ -143,15 +144,16 @@ public class TriePractice {
                 return null;
             }
 
+
             return this.children[word.charAt(0)-'A'].autoComplete(word.substring(1));
         }
-        private void gatherPossibilites(Node root, String prefix, List<String> possibilities) {
+        private void gatherPossibilites(Node root, StringBuilder prefix, List<String> possibilities) {
             if(root.getWord()){
                 //System.out.printf();
-                possibilities.add(String.format("%s%c", prefix, root.getValue()));
+                possibilities.add(prefix.append(root.getValue()).toString());
             }
             if(root.getValue() != 0) {
-                prefix += root.getValue();
+                prefix.append(root.getValue());
             }
             for(Node child: root.children) {
                 if(child!=null) {
@@ -164,20 +166,11 @@ public class TriePractice {
 
             //System.out.printf("'%s' will autocomplete to -> \r\n",baseWord);
 
-            gatherPossibilites(root, prefix.substring(0,prefix.length()-1), posibilities);
+            gatherPossibilites(root, new StringBuilder(prefix).deleteCharAt(prefix.length()-1), posibilities);
 
             return posibilities;
         }
         public List<String> allPossibleContacts(String name) {
-
-            StringBuilder sb = new StringBuilder();
-            sb.insert(0, "1");
-            sb.insert(0, "2");
-            sb.insert(0, "3");
-            sb.insert(0, "4");
-            sb.insert(0, "5");
-            sb.insert(0, "6");
-            System.out.println(sb.toString());
             
             Node root = (Node)this.autoComplete(name);
             if(root == null){
@@ -191,4 +184,39 @@ public class TriePractice {
     public void useTrie(TrieNode root) {
 
     }
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode(int x) { val = x; }
+     * }
+     */
+    /*class Solution {
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            List<List<Integer>> ans = new ArrayList<>();
+            Queue<TreeNode> q = new LinkedList<>();
+            if (root != null) {
+                q.offer(root);
+            }
+            TreeNode cur;
+            while (!q.isEmpty()) {
+                int size = q.size();
+                List<Integer> subAns = new LinkedList<Integer>();
+                for (int i = 0; i < size; ++i) {        // traverse nodes in the same level
+                    cur = q.poll();
+                    subAns.add(cur.val);                // visit the root
+                    if (cur.left != null) {
+                        q.offer(cur.left);              // push left child to queue if it is not null
+                    }
+                    if (cur.right != null) {
+                        q.offer(cur.right);             // push right child to queue if it is not null
+                    }
+                }
+                ans.add(subAns);
+            }
+            return ans;
+        }
+    }*/
 }
