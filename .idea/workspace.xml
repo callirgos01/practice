@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="725ddcbf-e34e-4d92-9906-87e60342656f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
           <file leaf-file-name="Amazon.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/net/callirgos/Amazon/Amazon.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+                <state relative-caret-position="408">
+                  <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -38,11 +37,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ContinuousMedian.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java">
+          <file leaf-file-name="CircularBuffer.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/net/callirgos/googleFriend/CircularBuffer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+                <state relative-caret-position="340">
+                  <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -54,26 +53,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AmazonTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/Amazon/AmazonTest.java">
+          <file leaf-file-name="CircularBufferTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/googleFriend/CircularBufferTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BinarySearchTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="22" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="323">
+                  <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -103,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/net/callirgos/fizzBuzz/FizzBuzzTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/fizzBuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/tests/net/callirgos/distributeCandies/DistributeCandiesTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/distributeCandies/DistributeCandies.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/splitBST/SplitBST.java" />
@@ -154,6 +136,8 @@
         <option value="$PROJECT_DIR$/tests/net/callirgos/Amazon/AmazonTest.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/Amazon/Amazon.java" />
         <option value="$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java" />
+        <option value="$PROJECT_DIR$/tests/net/callirgos/googleFriend/CircularBufferTest.java" />
+        <option value="$PROJECT_DIR$/src/net/callirgos/googleFriend/CircularBuffer.java" />
       </list>
     </option>
   </component>
@@ -195,6 +179,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="callirgos" type="462c0819:PsiDirectoryNode" />
               <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
+              <item name="googleFriend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -278,11 +269,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.callirgos.googleFriend" />
       <recent name="net.callirgos.Amazon" />
       <recent name="net.callirgos.fib" />
       <recent name="net.callirgos.mergeSort" />
       <recent name="net.callirgos.quickSort" />
-      <recent name="net.callirgos.matrixRegions" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -300,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AmazonTest.subStringTest">
+  <component name="RunManager" selected="JUnit.CircularBufferTest.removeEveryOtherNode">
     <configuration name="All in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -341,19 +332,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FibTest.fib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircularBufferTest.removeEveryOtherNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.fib.*" />
+          <option name="PATTERN" value="net.callirgos.googleFriend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.callirgos.fib" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.fib.FibTest" />
-      <option name="METHOD_NAME" value="fib" />
+      <option name="PACKAGE_NAME" value="net.callirgos.googleFriend" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.googleFriend.CircularBufferTest" />
+      <option name="METHOD_NAME" value="removeEveryOtherNode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -426,19 +417,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FibTest.fib" />
       <item itemvalue="JUnit.All in practice" />
       <item itemvalue="JUnit.TriePracticeTest.useTrie" />
       <item itemvalue="JUnit.TriePracticeTest" />
       <item itemvalue="JUnit.AmazonTest.subStringTest" />
+      <item itemvalue="JUnit.CircularBufferTest.removeEveryOtherNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircularBufferTest.removeEveryOtherNode" />
         <item itemvalue="JUnit.AmazonTest.subStringTest" />
         <item itemvalue="JUnit.TriePracticeTest.useTrie" />
         <item itemvalue="JUnit.TriePracticeTest" />
         <item itemvalue="JUnit.All in practice" />
-        <item itemvalue="JUnit.FibTest.fib" />
       </list>
     </recent_temporary>
   </component>
@@ -456,35 +447,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 00h 53m 51s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 32m 23s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 00h 54m 36s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 32m 44s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 09m 49s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 36m 16s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 10m 56s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 38m 39s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 11m 13s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 38m 47s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 34m 47s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 39m 03s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 35m 30s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 39m 21s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 36m 13s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 01h 39m 32s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 36m 24s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 02h 21m 04s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AmazonTest_subStringTest - 2018.03.30 at 01h 37m 15s.xml">
-      <configuration name="AmazonTest.subStringTest" configurationId="JUnit" />
+    <history-entry file="CircularBufferTest_removeEveryOtherNode - 2018.04.01 at 02h 21m 19s.xml">
+      <configuration name="CircularBufferTest.removeEveryOtherNode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -493,7 +484,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.327" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32637855" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -505,7 +496,6 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16831395" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -514,39 +504,40 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.030952381" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.030952381" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.313" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16845238" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.313" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.030952381" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.327" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16845238" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -564,12 +555,10 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ForEachOps.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Formatter.java" />
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java" />
@@ -781,11 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="68">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,10 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="386" column="24" lean-forward="true" selection-start-line="386" selection-start-column="24" selection-end-line="386" selection-end-column="24" />
-          <folding>
-            <element signature="e#10462#10463#0" expanded="true" />
-            <element signature="e#10503#10504#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,13 +815,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="939" column="7" lean-forward="true" selection-start-line="939" selection-start-column="7" selection-end-line="939" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/Amazon/Amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <element signature="e#34723#34724#0" expanded="true" />
-            <element signature="e#34769#34770#0" expanded="true" />
-            <element signature="e#53092#53093#0" expanded="true" />
-            <element signature="e#53130#53131#0" expanded="true" />
-            <element signature="e#53959#53960#0" expanded="true" />
-            <element signature="e#54033#54034#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,29 +839,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callirgos/googleFriend/CircularBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/Amazon/Amazon.java">
+    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/googleFriend/CircularBufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
