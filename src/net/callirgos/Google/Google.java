@@ -25,7 +25,6 @@ public class Google {
                     result += (c-'0');
                 }
             }
-
             return result*sign;
         }
         //question 2
@@ -95,7 +94,7 @@ public class Google {
         }
         public int possibleSumsMemo(int[] nums, int target) {
 
-            return backtrackMemo(nums, target, 0, new HashMap<String, Integer>());
+            return backtrackMemo(nums, target, 0, new HashMap<>());
         }
 
 

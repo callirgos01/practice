@@ -2,6 +2,7 @@ package net.callirgos.Facebook;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -46,4 +47,33 @@ class FacebookTest {
             System.out.println("]");
         }
     }
+    @Test
+    void isBalancedTest(){
+        String input = "{}{}{}{}()()()()[][][][]";
+        boolean expectedOutput = true;
+        boolean actualOutput = new Facebook.PhoneScreen().isBalanced(input);
+
+        assertEquals(expectedOutput, actualOutput);
+    }
+    @Test
+    void alienDictionaryTest() {
+        //String input[] = {};//c -> b -> a words = ['ab', 'bc', 'cd',* 'da']
+        List<String> dictionary = new ArrayList<>();
+        dictionary.add("cc");
+        dictionary.add("cb");
+        dictionary.add("bb");
+        dictionary.add("ac");
+        dictionary.add("ad");
+
+        List<Character> expectedOutput = new ArrayList<>() ;
+        expectedOutput.add('a');
+        expectedOutput.add('b');
+        expectedOutput.add('c');
+
+        List<Character> actualOutput = new Facebook.PhoneScreen().alienDictionary(dictionary);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+
 }
