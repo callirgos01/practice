@@ -122,18 +122,36 @@ public class Facebook {
             }
             return parenths.isEmpty();
         }
+
         public List<Character> alienDictionary(List<String> dictionary) {
             List<Character> result = new ArrayList<>();
 
-            String prev = dictionary.get(0);
-            /*for(int i=1; i< dictionary.size(); i++){
-                currentZ
-                result.add()
-
-                prev = dictionary.get(i);
+            for(int i=0; i< dictionary.size()-1; i++) {
+                String first = dictionary.get(i);
+                String next = dictionary.get(i + 1);
+                if (!result.contains(first.charAt(0))) {
+                    result.add(first.charAt(0));
+                }
+                if (!result.contains(next.charAt(0))) {
+                    result.add(next.charAt(0));
+                }
             }
 
-            */
+            for(int i=0; i< dictionary.size()-1; i++) {
+                String first = dictionary.get(i);
+                String next = dictionary.get(i + 1);
+                for(int j=0; j< Math.min(first.length(), next.length()); j++) {
+                    if(first.charAt(j) != next.charAt(j)) {
+                        if (!result.contains(first.charAt(j))) {
+                            result.add(first.charAt(j));
+                        }
+                        if (!result.contains(next.charAt(j))) {
+                            result.add(next.charAt(j));
+                        }
+                        break;
+                    }
+                }
+            }
             return result;
         }
         /*

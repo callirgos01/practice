@@ -57,22 +57,52 @@ class FacebookTest {
     }
     @Test
     void alienDictionaryTest() {
-        //String input[] = {};//c -> b -> a words = ['ab', 'bc', 'cd',* 'da']
-        List<String> dictionary = new ArrayList<>();
-        dictionary.add("cc");
-        dictionary.add("cb");
-        dictionary.add("bb");
-        dictionary.add("ac");
-        dictionary.add("ad");
+        /*
+        * Example 1:
+            Given the following words in dictionary,
+            [
+              "wrt",
+              "wrf",
+              "er",
+              "ett",
+              "rftt"
+            ]
+            The correct order is: "wertf".
+        * */
+        List<String> dictionary1 = new ArrayList<>();
+        dictionary1.add("wrt");
+        dictionary1.add("wrf");
+        dictionary1.add("er");
+        dictionary1.add("ett");
+        dictionary1.add("rftt");
 
-        List<Character> expectedOutput = new ArrayList<>() ;
-        expectedOutput.add('a');
-        expectedOutput.add('b');
-        expectedOutput.add('c');
+        List<Character> expectedOutput1 = new ArrayList<>() ;
+        expectedOutput1.add('w');
+        expectedOutput1.add('e');
+        expectedOutput1.add('r');
+        expectedOutput1.add('t');
+        expectedOutput1.add('f');
 
-        List<Character> actualOutput = new Facebook.PhoneScreen().alienDictionary(dictionary);
+        List<String> dictionary2 = new ArrayList<>();
+        dictionary2.add("z");
+        dictionary2.add("x");
 
-        assertEquals(expectedOutput, actualOutput);
+        List<Character> expectedOutput2 = new ArrayList<>() ;
+        expectedOutput2.add('z');
+        expectedOutput2.add('x');
+
+        List<Character> actualOutput1 = new Facebook.PhoneScreen().alienDictionary(dictionary1);
+        List<Character> actualOutput2 = new Facebook.PhoneScreen().alienDictionary(dictionary2);
+
+        assertEquals(expectedOutput2.size(), actualOutput2.size());
+        for(int i=0; i<actualOutput2.size(); i++) {
+            assertEquals(expectedOutput2.get(i), actualOutput2.get(i));
+        }
+
+        assertEquals(expectedOutput1.size(), actualOutput1.size());
+        for(int i=0; i<actualOutput1.size(); i++) {
+            assertEquals(expectedOutput1.get(i), actualOutput1.get(i));
+        }
 
     }
 
