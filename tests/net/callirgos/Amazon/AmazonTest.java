@@ -11,9 +11,9 @@ class AmazonTest {
         if(root==null)
             System.out.print("n ");
         else {
+            printTree(root.left);
             System.out.printf("%d ",root.val);
             printTree(root.right);
-            printTree(root.left);
         }
     }
     @Test

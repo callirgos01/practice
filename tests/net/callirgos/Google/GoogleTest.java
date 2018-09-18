@@ -38,4 +38,12 @@ class GoogleTest {
         System.out.printf("result2 = %d\r\n", result2);
 
     }
+    @Test
+    void isCompleteCycleTest() {
+        int[] sample = new int[3];
+        sample[0] = 2;
+        sample[1] = 2;
+        sample[2] = -1;
+        System.out.println(new Google.GooglePrepSession().isCompleteCycle(sample));
+    }
 }

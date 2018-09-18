@@ -3,6 +3,44 @@ package net.callirgos.Google;
 import java.util.HashMap;
 
 public class Google {
+    public static class GooglePrepSession {
+        //determine whether a circular array of relative indices is composed of a single complete cycle
+        // what's a circular array?
+        // relative indeces?
+        // An array of integers, where each cell's value points to another cell relative to it.
+        // Clarify the problem
+        // circular buffer - you know this, you have implemented this before
+        // what's a cycle when you can start at a point and return to that point by following relative indices
+        // a cycle that hits every element of the array
+        // consider a good example
+        // start with brute foce
+        // pick a node
+        // go through
+        // make sure you have hit every node
+        // make sure you have reached the starting node
+        // Determine wheter a circular array of relative indeces is composed of a single coimplete cycle
+        public boolean isCompleteCycle( int[] input ) {
+            int currentPosition = 0;
+            for(int i=0; i< input.length; i++ ) {
+                //System.out.println(i);
+                // we will start on the first index.
+                /// only the last element should take me to index 0 after being normalized
+                currentPosition += input[i]; // get new position
+                // normalize
+                currentPosition %= input.length;
+                if( currentPosition<0 ) {
+                    currentPosition += input.length;
+                }
+                // if this current position is 0 after normalization, then it better be the last cycle
+                // i == input.length -1
+                // watch  the end of the iteration
+                if((i < (input.length - 1)) && (currentPosition == 0)) {
+                    return false;
+                }
+            }
+            return currentPosition == 0;
+        }
+    }
     public static class PhoneScreen {
         //3 questions
         // question 1
