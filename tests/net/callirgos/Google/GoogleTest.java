@@ -46,4 +46,8 @@ class GoogleTest {
         sample[2] = -1;
         System.out.println(new Google.GooglePrepSession().isCompleteCycle(sample));
     }
+    @Test
+    void combinations() {
+        System.out.println(new Google.Banned().combinations());
+    }
 }

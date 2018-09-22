@@ -49,11 +49,17 @@ class FacebookTest {
     }
     @Test
     void isBalancedTest(){
-        String input = "{}{}{}{}()()()()[][][][]";
-        boolean expectedOutput = true;
-        boolean actualOutput = new Facebook.PhoneScreen().isBalanced(input);
+        String input1 = "{}{}{}{}()()()()[][][][]";
+        boolean expectedOutput1 = true;
+        boolean actualOutput1 = new Facebook.PhoneScreen().isBalanced(input1);
 
-        assertEquals(expectedOutput, actualOutput);
+
+        String input2 = "{}{}{}{}()()()()[][][][{]";
+        boolean expectedOutput2 = false;
+        boolean actualOutput2 = new Facebook.PhoneScreen().isBalanced(input2);
+
+        assertEquals(expectedOutput1, actualOutput1);
+        assertEquals(expectedOutput2, actualOutput2);
     }
     @Test
     void alienDictionaryTest() {

@@ -1,8 +1,75 @@
 package net.callirgos.Google;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class Google {
+    public static class Banned {
+        private long backtrack(List<Integer> patterns, int max ) {
+            if(patterns.size() == max) {
+                //print list
+                /*System.out.printf("%d[ ", max);
+                for( Integer number : patterns){
+                    System.out.printf("%d ", number);
+                }
+                System.out.println("]");
+                */
+                return 1;
+            }
+            long count = 0;
+            for( int i=1; i< 10; i++ ) {
+                patterns.add(i);
+                count += backtrack(patterns, max);
+                patterns.remove(patterns.size()-1);
+            }
+            return count;
+        }
+        // how many different security codes can you create with the numbers 1 to 9;
+        public long combinations() {
+            long count = 0;
+            for( int i = 9; i< 10; i++) {
+                long _count = backtrack(new ArrayList<>(), i);
+                System.out.printf("[%d] %d\r\n", i, _count);
+                count += _count;
+            }
+            return count;
+        }
+
+        private int dfs( int[][] matrix, int row, int col, int distance) {
+            if( row < 0 || row > matrix.length || col <0 || col > matrix.length ) {
+                return 0;
+            }
+
+            // go search through all children
+            // children are all adjacent points
+            // where current number is less than child
+            for( int r=row-1; r<row+2; r++) {
+                for( int c=col-1; c<col+2; c++) {
+                    if( matrix[row][col] < matrix[r][c]) {
+                        dfs(matrix, r, c, distance+1);
+                    }
+                }
+            }
+            return distance;
+        }
+        // longest incrementing path
+        private int longestIncPath( int[][] matrix) {
+
+            int length_max = 0;
+            int length = 0;
+
+            // iterate through the length starting at every node
+            // record longest
+            for( int row=0; row < matrix.length; row++ ){
+                for( int col=0; col < matrix.length; col++ ){
+                    length = dfs(matrix, row, col, 0);
+                    length_max = Math.max( length, length_max );
+                }
+            }
+
+        }
+    }
     public static class GooglePrepSession {
         //determine whether a circular array of relative indices is composed of a single complete cycle
         // what's a circular array?

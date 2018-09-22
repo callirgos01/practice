@@ -25,7 +25,7 @@ public class Facebook {
         }
 
         // These problems I have not gotten
-        // but I need preactice with these for facebook
+        // but I need practice with these for facebook
         private void backtrack(int[] nums, int index, List<List<Integer>> subSets, Integer[] subSet) {
             if (index == nums.length) {
                 List<Integer> subset = new ArrayList<>();
@@ -79,48 +79,27 @@ public class Facebook {
             return true;
         }
 
-        private boolean isOpenning(char c) {
-            return c == '(' || c == '{' || c == '[' || c == '<';
-        }
-
-        private boolean processCharacter(char c, Stack<Character> stack) {
-            if (isOpenning(c)) {
-                stack.push(c);
-            } else {
-                if (stack.isEmpty()) {
-                    return false;
-                }
-                switch (c) {
-                    case ')':
-                        if (stack.pop() != '(') {
-                            return false;
-                        }
-                        break;
-                    case '}':
-                        if (stack.pop() != '{') {
-                            return false;
-                        }
-                        break;
-                    case ']':
-                        if (stack.pop() != '[') {
-                            return false;
-                        }
-                        break;
-                    default:
-                        break;
-                }
-            }
-            return true;
-        }
         public boolean isBalanced(String s) {
-            Stack<Character> parenths = new Stack<Character>();
+            Stack<Character> stack = new Stack<Character>();
+            HashMap<Character, Character> opposites = new HashMap<>();
+            List<Character> opening = new ArrayList<>();
+            opening.add('(');
+            opening.add('[');
+            opening.add('{');
+
+            opposites.put(')','(');
+            opposites.put(']','[');
+            opposites.put('}','{');
+
             for (int i = 0; i < s.length(); i++) {
-                char c = s.charAt(i);
-                if (!processCharacter(c, parenths)) {
+                char current = s.charAt(i);
+                if ( opening.contains(current) ) {
+                    stack.push(current);
+                } else if(stack.isEmpty() || stack.pop() != opposites.get(current)) {
                     return false;
                 }
             }
-            return parenths.isEmpty();
+            return stack.isEmpty();
         }
 
         public List<Character> alienDictionary(List<String> dictionary) {
