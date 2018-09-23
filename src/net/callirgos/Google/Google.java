@@ -1,11 +1,16 @@
 package net.callirgos.Google;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Google {
     public static class Banned {
+        public static class ListNode {
+            int val;
+            ListNode next;
+            public ListNode(int val) {
+                this.val=val;
+            }
+        }
         private long backtrack(List<Integer> patterns, int max ) {
             if(patterns.size() == max) {
                 //print list
@@ -36,38 +41,110 @@ public class Google {
             return count;
         }
 
-        private int dfs( int[][] matrix, int row, int col, int distance) {
-            if( row < 0 || row > matrix.length || col <0 || col > matrix.length ) {
+        private int dfs( int[][] matrix, int row, int col, HashMap<String,Integer> memo, List<Integer> path ) {
+
+            if( row < 0 || row > matrix.length || col <0 || col > matrix[0].length ) {
                 return 0;
             }
 
+            path.add(matrix[row][col]);
+
+            String key = String.format("%d-%d", row, col);
+            //if(memo.containsKey(key)) {
+              // path.remove(path.size()-1);
+               // return memo.get(key);
+          //  }
+            int distance = 1;
+            int longestDistance = 0;
+            System.out.printf("[%d][%d] = %d\r\n", row, col, matrix[row][col] );
             // go search through all children
             // children are all adjacent points
             // where current number is less than child
-            for( int r=row-1; r<row+2; r++) {
-                for( int c=col-1; c<col+2; c++) {
-                    if( matrix[row][col] < matrix[r][c]) {
-                        dfs(matrix, r, c, distance+1);
-                    }
-                }
+            // down
+            if ( row < matrix.length-1 && matrix[row][col] < matrix[row+1][col]) {
+                System.out.printf("=>[%d][%d] = %d\r\n", row+1, col, matrix[row+1][col] );
+                distance = 1 + dfs(matrix, row+1, col, memo, path);
+                longestDistance = Math.max(longestDistance, distance);
             }
-            return distance;
+            //right
+            if (col < matrix[0].length-1 && matrix[row][col] < matrix[row][col+1]) {
+                System.out.printf("=>[%d][%d] = %d\r\n", row, col+1, matrix[row][col+1] );
+                distance = 1 + dfs(matrix, row, col+1, memo, path);
+                longestDistance = Math.max(longestDistance, distance);
+            }
+
+            //up
+            if (row>0 && matrix[row][col] < matrix[row-1][col]) {
+                System.out.printf("=>[%d][%d] = %d\r\n", row-1, col, matrix[row-1][col] );
+                distance = 1 + dfs(matrix, row-1, col, memo, path);
+                longestDistance = Math.max(longestDistance, distance);
+            }
+            // left
+            if (col>0 && matrix[row][col] < matrix[row][col-1]) {
+                System.out.printf("=>[%d][%d] = %d\r\n", row, col-1, matrix[row][col-1] );
+                distance = 1 + dfs(matrix, row, col-1, memo, path);
+                longestDistance = Math.max(longestDistance, distance);
+            }
+
+            System.out.printf("path (%d) [ ", path.size());
+            for(Integer step : path) {
+                System.out.printf("%d ", step);
+            }
+            System.out.println("]");
+
+            path.remove(path.size()-1);
+
+            longestDistance = Math.max(longestDistance, distance);
+
+            memo.put(key, longestDistance);
+            return memo.get(key);
         }
         // longest incrementing path
-        private int longestIncPath( int[][] matrix) {
+        public int longestIncPath( int[][] matrix) {
 
             int length_max = 0;
             int length = 0;
-
+            List<Integer> longestPath = new ArrayList<>();
             // iterate through the length starting at every node
             // record longest
             for( int row=0; row < matrix.length; row++ ){
-                for( int col=0; col < matrix.length; col++ ){
-                    length = dfs(matrix, row, col, 0);
+                for( int col=0; col < matrix[0].length; col++ ) {
+                    List<Integer> path = new ArrayList<>();
+                    length = dfs(matrix, row, col, new HashMap<>(), path );
+
+
+                    System.out.printf(" longest path from [%d][%d] (%d) [ ",row,col,length);
+                    for(Integer step : path) {
+                        System.out.printf("%d ", step);
+                    }
+                    System.out.println("]");
+
                     length_max = Math.max( length, length_max );
+                    if(length_max == length){
+                        longestPath = path;
+                    }
                 }
             }
+            System.out.printf("longest (%d) [ ", longestPath.size());
+            for(Integer step : longestPath) {
+                System.out.printf("%d ", step);
+            }
+            System.out.println("]");
+            return length_max;
+        }
 
+        public ListNode everyOtherNodeInTheList( ListNode root ) {
+            ListNode result = new ListNode(0);
+            ListNode result_ptr = result;
+
+            while(root!=null && root.next != null ) {
+               // nodes.add(root);
+                result.next = root;
+                result = result.next;
+                root = root.next.next;
+            }
+            result.next = null;
+            return result_ptr.next;
         }
     }
     public static class GooglePrepSession {

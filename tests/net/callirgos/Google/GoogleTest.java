@@ -50,4 +50,37 @@ class GoogleTest {
     void combinations() {
         System.out.println(new Google.Banned().combinations());
     }
+    @Test
+    void longestPathInMatrix(){
+        int[][] matrix = new int[3][4];
+        matrix[0] = new int[] {10, 15, 2, 5};
+        matrix[1] = new int[] {8, 25, 7, 16};
+        matrix[2] = new int[] {1, 4, 9, 21};
+        System.out.printf("Longest path = %d\r\n", new Google.Banned().longestIncPath(matrix));
+
+    }
+    @Test
+    void everyOtherNode(){
+        Google.Banned.ListNode node = new Google.Banned.ListNode(0);
+        Google.Banned.ListNode input = node;
+        for( int i=1; i<10; i++ ){
+            node.next = new Google.Banned.ListNode(i);
+            node=node.next;
+        }
+        node = input;
+        System.out.print("input ");
+        while(input != null) {
+            System.out.printf("%d ", input.val);
+            input = input.next;
+        }
+        System.out.println();
+        input = node;
+        Google.Banned.ListNode output = new Google.Banned().everyOtherNodeInTheList(input);
+        System.out.print("output ");
+        while(output != null) {
+            System.out.printf("%d ", output.val);
+            output = output.next;
+        }
+        System.out.println();
+    }
 }
