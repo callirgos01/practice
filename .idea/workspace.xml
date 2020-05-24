@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="725ddcbf-e34e-4d92-9906-87e60342656f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/callirgos/Google/Google.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/callirgos/Google/Google.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/net/callirgos/Google/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/net/callirgos/Google/GoogleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,91 +26,6 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/practice$All_in_practice.ic" NAME="All in practice Coverage Results" MODIFIED="1537311198149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-334328434">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="26" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="26" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="12455" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="12455" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32346797">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/net/callirgos/Google/Google.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-                  <folding>
-                    <element signature="class#ListNode#0;class#Banned#0;class#Google#0" />
-                    <element signature="e#289#290#0" expanded="true" />
-                    <element signature="e#328#329#0" expanded="true" />
-                    <element signature="method#backtrack#0;class#Banned#0;class#Google#0" />
-                    <element signature="method#combinations#0;class#Banned#0;class#Google#0" />
-                    <element signature="method#dfs#0;class#Banned#0;class#Google#0" />
-                    <element signature="method#longestIncPath#0;class#Banned#0;class#Google#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/net/callirgos/Google/GoogleTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="62" column="23" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#1520#1521#0" expanded="true" />
-                    <element signature="e#1590#1591#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Formatter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="2579" selection-start-line="2579" selection-end-line="2579" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -118,171 +35,26 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>expectedOuput</find>
-      <find>priority</find>
-      <find>parenth</find>
-      <find>dfs</find>
-      <find>tree</find>
-      <find>TreeNode</find>
-      <find>stack</find>
-      <find>prim's</find>
-      <find>graph</find>
-      <find>alie</find>
-      <find>words</find>
-      <find>backtracking</find>
-      <find>every</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\git\practice\src\net\callirgos\UniqueString</dir>
-      <dir>D:\git\practice\src</dir>
-    </dirStrings>
+  <component name="G3PluginsProjectSettings">
+    <appliedSettings>
+      <entry key="LinkifyInternalShortlinks" value="true" />
+      <entry key="RecognizedNullableAnnotations" value="true" />
+    </appliedSettings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/tests/net/callirgos/spiralOrder/SpiralOrderTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/hitCounter/HitCounterTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/hitCounter/HitCounter.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/findMedianSortedArray/FindMedianSortedArray.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/findMedianSortedArray/FindMedianSortedArrayTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/findMaxLength/FindMaxLength.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/yearAlive/yearsAliveTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/yearAlive/yearsAlive.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/cryptoQuestion/CryptopQuestionTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/sumUp/SumUpTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/sumUp/SumUp.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/net/callirgos/findIceCreamChoices/IceCreamChoicesTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/net/callirgos/findIceCreamChoices/IceCreamChoices.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/findIceCreamChoices/IceCreamChoicesTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/cryptoQuestion/CryptopQuestion.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/matrixRegions/matrixRegionsTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/matrixRegions/matrixRegions.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/quickSort/QuickSortTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/binarySearch/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/mergeSort/MergeSortTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/binarySearch/BinarySearchTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/mergeSort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/quickSort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/makeChange/MakeChange.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/fib/FIb.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/fib/Fib.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/fib/FibTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/findRightInterval/FindRightInterval.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/triePractice/TriePracticeTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/serializeDeserialize/Codec.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/triePractice/TriePractice.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/Amazon/Amazon.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/contMedian/ContinuousMedian.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/googleFriend/CircularBuffer.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/googleFriend/CircularBufferTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/Amazon/AmazonTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/net/callirgos/binarytree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/binarytree/BinaryTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/binarytree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/tree/tree.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/tree/treeTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/stacksAndQueues/MyStackTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/stacksAndQueues/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/prims/Graphing.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/prims/GraphingTest.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/Facebook/FacebookTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/Facebook/Facebook.java" />
-        <option value="$PROJECT_DIR$/tests/net/callirgos/Google/GoogleTest.java" />
-        <option value="$PROJECT_DIR$/src/net/callirgos/Google/Google.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2646" />
-    <option name="y" value="-179" />
-    <option name="width" value="3440" />
-    <option name="height" value="1440" />
-  </component>
+  <component name="ProjectId" id="1cHWQBlKysnqxYa4yQGwowofeqG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="arrayPairSum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="callirgos" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537636598258" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -317,26 +89,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleTest.everyOtherNode">
-    <configuration name="FacebookTest.isBalancedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GoogleTest.testFramingTxRecord">
+    <configuration name="BinarySearchTest.binarySearchRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.callirgos.Facebook.*" />
+          <option name="PATTERN" value="net.callirgos.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="net.callirgos.Facebook" />
-      <option name="MAIN_CLASS_NAME" value="net.callirgos.Facebook.FacebookTest" />
-      <option name="METHOD_NAME" value="isBalancedTest" />
+      <option name="PACKAGE_NAME" value="net.callirgos.binarySearch" />
+      <option name="MAIN_CLASS_NAME" value="net.callirgos.binarySearch.BinarySearchTest" />
+      <option name="METHOD_NAME" value="binarySearchRecursive" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTest.combinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -346,10 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="net.callirgos.Google" />
       <option name="MAIN_CLASS_NAME" value="net.callirgos.Google.GoogleTest" />
-      <option name="METHOD_NAME" value="combinations" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -370,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTest.isCompleteCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTest.testFramingPutFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -380,15 +147,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="net.callirgos.Google" />
       <option name="MAIN_CLASS_NAME" value="net.callirgos.Google.GoogleTest" />
-      <option name="METHOD_NAME" value="isCompleteCycleTest" />
+      <option name="METHOD_NAME" value="testFramingPutFrame" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTest.longestPathInMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTest.testFramingTxRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -398,26 +163,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="net.callirgos.Google" />
       <option name="MAIN_CLASS_NAME" value="net.callirgos.Google.GoogleTest" />
-      <option name="METHOD_NAME" value="longestPathInMatrix" />
+      <option name="METHOD_NAME" value="testFramingTxRecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GoogleTest.isCompleteCycleTest" />
-      <item itemvalue="JUnit.FacebookTest.isBalancedTest" />
-      <item itemvalue="JUnit.GoogleTest.combinations" />
-      <item itemvalue="JUnit.GoogleTest.longestPathInMatrix" />
       <item itemvalue="JUnit.GoogleTest.everyOtherNode" />
+      <item itemvalue="JUnit.GoogleTest" />
+      <item itemvalue="JUnit.BinarySearchTest.binarySearchRecursive" />
+      <item itemvalue="JUnit.GoogleTest.testFramingPutFrame" />
+      <item itemvalue="JUnit.GoogleTest.testFramingTxRecord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoogleTest.testFramingTxRecord" />
+        <item itemvalue="JUnit.GoogleTest" />
+        <item itemvalue="JUnit.GoogleTest.testFramingPutFrame" />
+        <item itemvalue="JUnit.BinarySearchTest.binarySearchRecursive" />
         <item itemvalue="JUnit.GoogleTest.everyOtherNode" />
-        <item itemvalue="JUnit.GoogleTest.longestPathInMatrix" />
-        <item itemvalue="JUnit.GoogleTest.combinations" />
-        <item itemvalue="JUnit.GoogleTest.isCompleteCycleTest" />
-        <item itemvalue="JUnit.FacebookTest.isBalancedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,105 +196,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520146793434</updated>
+      <workItem from="1590185985448" duration="11032000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="GoogleTest_longestPathInMatrix - 2018.09.22 at 07h 51m 03s.xml">
-      <configuration name="GoogleTest.longestPathInMatrix" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_longestPathInMatrix - 2018.09.22 at 07h 56m 24s.xml">
-      <configuration name="GoogleTest.longestPathInMatrix" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_longestPathInMatrix - 2018.09.22 at 07h 57m 56s.xml">
-      <configuration name="GoogleTest.longestPathInMatrix" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 16m 44s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 16m 52s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 17m 10s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 17m 36s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 19m 14s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 20m 12s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleTest_everyOtherNode - 2018.09.22 at 09h 21m 37s.xml">
-      <configuration name="GoogleTest.everyOtherNode" configurationId="JUnit" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3440" height="1440" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15429917" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32957292" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44663742" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3230994" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.030357143" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16845238" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.313" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.327" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.030952381" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -544,236 +227,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Stack.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/splitBST/SplitBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/depthSum/DepthSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/spiralOrder/SpiralOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/yearAlive/yearsAlive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/UniqueString/UniqueString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/Amazon/AmazonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/Amazon/Amazon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="121" column="13" lean-forward="true" selection-start-line="112" selection-start-column="35" selection-end-line="121" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/binarytree/BinaryTreeTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/serializeDeserialize/CodecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/binarytree/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/tree/tree.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/tree/treeTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/stacksAndQueues/MyStackTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/stacksAndQueues/MyStack.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/prims/GraphingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/prims/Graphing.java" />
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/makeChange/MakeChangeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/makeChange/MakeChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/Facebook/Facebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/arrayPairSum/ArrayPairSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/Facebook/FacebookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/findRightInterval/FindRightIntervalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Formatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="2579" selection-start-line="2579" selection-end-line="2579" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/net/callirgos/Google/GoogleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callirgos/Google/Google.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="class#ListNode#0;class#Banned#0;class#Google#0" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="method#backtrack#0;class#Banned#0;class#Google#0" />
-            <element signature="method#combinations#0;class#Banned#0;class#Google#0" />
-            <element signature="method#dfs#0;class#Banned#0;class#Google#0" />
-            <element signature="method#longestIncPath#0;class#Banned#0;class#Google#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>9.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>practice</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

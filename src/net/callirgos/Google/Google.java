@@ -1,5 +1,6 @@
 package net.callirgos.Google;
 
+import com.sun.javadoc.ThrowsTag;
 import java.util.*;
 
 public class Google {
@@ -278,7 +279,108 @@ public class Google {
 
             return backtrackMemo(nums, target, 0, new HashMap<>());
         }
+    }
+    public static class Framing {
 
+        public byte[][] GetTxFrames(byte[] fullRecord) {
+            ArrayList<byte[]> frames = new ArrayList<byte[]>();
+            for(int i=0; i<fullRecord.length; i += this.maxFrameSize - 1) {
+               int size = this.maxFrameSize-1;
+                if((i + this.maxFrameSize - 1) > fullRecord.length) {
+                    // this is the last chunk and it needs to be smaller than a full frame
+                    size = fullRecord.length - i;
+                }
+                byte[] frame = new byte[size + 1];
+                // frame[0] = header;
+                System.arraycopy(fullRecord, i, frame, 1, size);
 
+                frames.add(Arrays.copyOfRange(fullRecord, i, Math.min(fullRecord.length, i+this.maxFrameSize)));
+            }
+            byte[][] arr = new byte[frames.size()][];
+            arr = frames.toArray(arr);
+            return arr;
+        }
+
+        private class Frames {
+            private List<Frame> _frames;
+            private Frame _lastFrame;
+            public Frames(Frame frame) {
+                this._lastFrame = frame;
+            }
+            public boolean getIsComplete() {
+                // criteria for completed record
+                // at least one frame
+                // last frame has the end of record property set
+                return false;
+            }
+
+            public int getLastRecordNumber() {
+                return 0;
+            }
+
+            public int currentFramenumber;
+
+            public byte[] toBytes() {
+                return null;
+            }
+        }
+
+        private class Frame {
+            public class Header {
+                byte _header;
+                public Header(byte header) {
+                    this._header = header;
+                }
+                public int getRecordNumber() {
+                    return this._header;
+                }
+                public int getFrameNumber() {
+                    return this._header;
+                }
+                public boolean getEndOfRecord() {
+                    return this._header == 1;
+                }
+            }
+            public boolean isValid;
+            public Frame(byte[] frame) {
+                this.isValid = false;
+            }
+        }
+
+        private byte[] rxRecord;
+        private boolean rxRecordComplete;
+        private Frames frames;
+        public int maxFrameSize;
+        public int maxRecordSize;
+
+        public Framing(int maxFrameSize, int maxRecordSize) {
+            this.rxRecord = new byte[0];
+            this.maxFrameSize = maxFrameSize;
+            this.maxRecordSize = maxRecordSize;
+            this.rxRecordComplete = false;
+            this.frames = null;
+        }
+
+        public void addFrame(byte[] frame) {
+            Frame _frame = new Frame(frame);
+            if (_frame.isValid) {
+                if (frames == null) {
+                    frames = new Frames(_frame);
+                } else {
+                    // frames.addFrame(_frame);
+                }
+            }
+            int startingIndex = this.rxRecord.length;
+            this.rxRecord = Arrays.copyOf(this.rxRecord, this.rxRecord.length + frame.length - 1);
+            for (int i = 1; i < frame.length; i++) {
+                this.rxRecord[startingIndex + i - 1] = frame[i];
+            }
+        }
+        public byte[] getRxRecord() {
+            if(!this.rxRecordComplete) {
+                return null;
+            }
+            return this.rxRecord;
+        }
     }
 }

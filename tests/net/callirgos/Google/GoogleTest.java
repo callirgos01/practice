@@ -83,4 +83,44 @@ class GoogleTest {
         }
         System.out.println();
     }
+/*    @Test
+    void testFramingPutFrame() {
+        Google.Framing framing = new Google.Framing(1,2);
+        byte[] frame  = new byte[] {1,2,3,4,5,6,7,8};
+        framing.addFrame(frame);
+        framing.addFrame(frame);framing.addFrame(frame);framing.addFrame(frame);framing.addFrame(frame);framing.addFrame(frame);
+        for(byte testOutput: framing.getRxRecord()) {
+                System.out.println(testOutput);
+        }
+    }
+ */
+    @Test
+    void testFramingTxRecord() {
+        // initialize framing library
+        // pass in a full record
+        // expect the full record to be broken into frame size chunks
+        // check each frame header
+        int maxRecordSize = 100;
+        int maxFrameSize = 10;
+        byte[] fullRecord = new byte[] { 1,2,3,4,5,6,7,8,9,
+                                         8,7,6,5,4,3,2,1,1,
+                                         2,3,4,5,6,7,4,8,5,
+                                         5,2,1,6,2,1,6,8,7,
+                                         4,4,3,5,2,5,8,5 };
+        byte[][] expectedFrames = new byte[][]{ {0,1,2,3,4,5,6,7,8,9},
+                                                {0,8,7,6,5,4,3,2,1,1},
+                                                {0,2,3,4,5,6,7,4,8,5},
+                                                {0,5,2,1,6,2,1,6,8,7},
+                                                {0,4,4,3,5,2,5,8,5}
+        };
+        Google.Framing framing = new Google.Framing(maxFrameSize, maxRecordSize);
+        byte[][] actualFrames = framing.GetTxFrames(fullRecord);
+        for( int i=0; i< expectedFrames.length; i++) {
+            for( int j=0; i<expectedFrames[i].length; j++)
+                assertEquals(expectedFrames[i][j], actualFrames[i][j]);
+        }
+
+    }
+
+
 }

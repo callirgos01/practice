@@ -22,6 +22,11 @@ class BinarySearchTest {
     @Test
     void binarySearchRecursive() {
         int[] sampleArray = new int[500];
+        byte[] something = new byte[]{1,2,3, 4, 5, 6, 7, 8, 9};
+        byte[] chunk =  Arrays.copyOfRange(something, 3, 100);
+        for(byte single: chunk) {
+            System.out.println(single);
+        }
         for(int i=0; i<sampleArray.length; i++) {
             sampleArray[i] = new Random().nextInt(sampleArray.length);
         }
